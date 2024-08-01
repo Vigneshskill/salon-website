@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+ 
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .header{
+    position: relative;
+    display: flexbox;
+  }
+  
+  .navbar {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  .logo {
+    float: left;
+  
+  }
+  .logo-img{
+    width: 50px;
+    margin-left: 50px;
+    height: 50px;
+    mix-blend-mode: lighten;
+    margin-top: -2px;
+  }
+  
+  .nav-list {
+    float: right;
+    list-style: none;
+     margin-right: 100px;
+  }
+  
+  .nav-list li {
+    display: inline;
+  }
+  
+  .nav-list li a {
+    display: inline-block;
+    padding: 15px;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+.head-img{
+    width: 100%;
+    height: auto;
+}
+.first-cont-head {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+    top: 30rem;
+    margin-left: 50px;
+    width: 800px;
+}
+.mod-para{
+    font-size: 90px;
+    font-weight: 900;
+    
+}
+.gre-para{
+    padding-top: 20px;
+font-size: 25px;
+}
+.app-btn{
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 20px;
+    background-color: orangered;
+    width: 200px;
+}
+.first-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.first-img{
+    z-index: 2;
+    padding-left: 250px;
+}
+.first-cont-img{
+    z-index: 3;
+    margin-left:550px ;
+    margin-top: -200px;
+    border: 25px solid white;
+}
+.fir-cont-sec{
+    padding: 100px;
+}
+.para{
+    font-size: 19px;
+    padding: 15px;
+}
+.about-us{
+    background-color: orangered;
+    width: 120px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    margin-top: 80px;
+}
+.second-container{
+    padding:50px ;
+    text-align: center;
+}
+.sec-ser{
+    padding: 60px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    text-align: center;
+}
+.ser-para-one{
+    color: chocolate;
+    font-weight: 900;
+}
+ .ser-para{
+  color: chocolate;
+
+}
+.third-container{
+    text-align: center;
+}
+.thi-sub-one{
+    display: flex;
+}
+.thi-main{
+    justify-content: center;
+    padding: 25px;
+}
+.thi-img{
+    padding: 15px;
+    width: 410px;
+    height: 600px;
+}
+.fourth-container {
+    justify-content: center;
+    text-align: center;
+}
+.four-main{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 100px;
+    
+}
+.four-one{
+    border: 1px solid chocolate;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.four-para-one{
+    width: 250px;
+    padding: 10px;
+    color: rgb(84, 84, 84);
+}
+.four-para{
+    padding: 10px;
+    background-color: rgb(193, 191, 191);
+    color: rgb(84, 84, 84);
+    
+}
+.get{
+    color: white;
+    background-color:chocolate;
+    width: 120px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-left: 70px;
+    margin-top: 20px;
+   
+}
+.fifth-container{
+    justify-content: center;
+    text-align: center;
+}
+.make{
+    font-size: 60px;
+}
+.fif-main{
+    display: flex;
+    padding: 150px;
+    gap: 100px;
+}
+.fif-img{
+    border-radius: 131px 38px 130px 37px;
+-webkit-border-radius: 131px 38px 130px 37px;
+-moz-border-radius: 131px 38px 130px 37px;
+}
+.fif-img-ce{
+    border-radius: 80px;
+}
+.fif-img-rig{
+    border-radius: 39px 131px 39px 131px;
+-webkit-border-radius: 39px 131px 39px 131px;
+-moz-border-radius: 39px 131px 39px 131px;
+}
+.sixth-container{
+    display: flex;
+    padding-left: 150px;
+    gap: 200px;
+}
+.make{
+    font-size: 50px;
+}
+.six-para{
+    padding: 10px;
+    font-size: 22px;
+    border: none;
+}
+.under{
+    height: 1px;
+    width: 590px;
+    background-color: rgb(0, 0, 0);
+}
+.i-para{
+    width: 600px;
+    font-size: 25px;
+}
+.send{
+    background-color: chocolate;
+    color: white;
+    padding: 15px;
+    width: 150px;
+}
+.six-sub{
+    padding: 50px;
+}
+.last-logo {
+    text-align: center;
+    justify-content: center;
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+   
+}
+.la-img{
+    width: 200px;
+    height: 150px;
+    padding: 40px;
+}
+footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 50px;
+    padding: 200px;
+    
+}
+.ft-mi{
+    width: 300px;
+}
